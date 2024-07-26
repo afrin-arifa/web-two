@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-section {
+    background-image: url("https://www.theappylodge.com/wp-content/uploads/2018/05/OAK-TENN-ONLY-Early-Spring-Smokies-Morning-copy.jpg");
+    height: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.banner-content h1 {
+    color: #ff0000;
+}
+
+.banner-content p {
+    margin-top: 10px;
+    color: rgb(18, 1, 46);
+}
+
+.video-box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.video-btn {
+    position: absolute;
+    text-align: center;
+    color: inherit;
+    font-size: 25px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    background-color: rgba(83, 78, 78, 0.5);
+    box-shadow: none;
+    transition: 0.5s;
+    padding-left: 5px;
+}
+
+.video-btn .fa-play {
+    color: #ff0000;
+    position: relative;
+    z-index: 99;
+    -webkit-transition: color 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+    line-height: 100px;
+}
+
+.video-btn:hover {
+    color: inherit;
+    background-color: #ff0000;
+}
+
+.video-btn:hover .fa-play {
+    color: #fff;
+}
+
+.video-btn:before,
+.video-btn:after {
+    display: none;
+}
+
+.triangle {
+    position: relative;
+    overflow: hidden;
+}
+
+.triangle:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-bottom: 190px solid red;
+    border-left: 430px solid transparent;
+    opacity: .5;
+}
+
+.custom-box {
+    padding-left: 110px;
+    padding-right: 60px;
+}
+
+.card {
+    background-color: inherit;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 48px;
+    color: #f15f55;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000a0a;
+}
+
+.description {
+    font-size: 14px;
+    color: #282c2c;
+    font-weight: 600;
+}
+
+.music-sec {
+    background-image: url("https://www.shutterstock.com/image-photo/stylish-office-workspace-desk-wireless-260nw-2319303203.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.img-box img {
+    z-index: 7;
+    position: relative;
+    padding: 30px;
+    /* height: 500px; */
+}
+
+.triangle-two {
+    position: relative;
+}
+
+.triangle-two:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    z-index: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 668px solid red;
+    border-right: 460px solid transparent;
+    opacity: .2;
+}
+
+.dp-img {
+    font-size: 48px;
+    color: #f15f55;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 120px;
+}
+
+.com-sec {
+    padding-top: 80px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.form-sec {
+    background-color: #04082b;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.form-control {
+    background-color: #8c8ba0;
+}
+
+.form-sec button {
+    color: rgb(253, 244, 244);
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.form-sec p {
+    color: #919090;
+    padding-top: 45px;
+}
+
+.form-sec h2 {
+    color: #fffcfc;
+    padding-bottom: 5px;
+}
+
+.footer-sec {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.triangle-footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.triangle-footer:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-right: 300px solid red;
+    border-bottom: 335px solid transparent;
+    opacity: .5;
+}
+
+.arrow {
+    padding-bottom: 25px;
+    padding-right: 50px;
+    width: max-content;
+    margin-left: auto;
+    padding-left: 50px;
+    position: relative;
+}
+
+.arrow:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    background-image: url(arrow-down-outline.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons {
+    padding-left: 50px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #292727;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.input-group-text {
+    background-color: #f15f55;
+}
+
+.ex-play-btn {
+    padding-right: 30%;
+    position: relative;
+    font-size: 25px;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 1px;
+}
+
+.ex-play-btn:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 15px;
+    background-image: url(play-solid.svg);
+    background-repeat: no-repeat;
+    width: 150%;
+    height: 100%;
+    z-index: -1;
+    margin-right: 10px;
+}
